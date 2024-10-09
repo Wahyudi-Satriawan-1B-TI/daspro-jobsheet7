@@ -21,7 +21,8 @@ do {
         diskon = 0.15;
     }
     else {
-        diskon = 0.0;
+        System.out.println("Input tidak valid");
+        continue;
     }
     harga = (tiket * hargaTiket) - ((tiket * hargaTiket) * diskon);
     totalTiket += tiket;
