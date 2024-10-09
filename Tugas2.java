@@ -11,6 +11,12 @@ do {
     if (jenis == 0) {
         break;
     }
+    if (jenis == 1 || jenis == 2 || jenis == 3) {
+    }
+    else {
+        System.out.println("Jenis kendaraan tidak valid, Masukkan lagi");
+        continue;
+    }
     System.out.print("Masukkan durasi parkir: ");
     durasi = sc.nextInt();
 
@@ -29,6 +35,8 @@ do {
     }
     System.out.println("Tarif parkir: Rp " + harga);
     total += harga;
+    
+    
 } while (true);
 
 System.out.println("=======================================================");
