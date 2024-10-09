@@ -21,6 +21,7 @@ for (int i = 1; i <= 10; i++){
     } else {
         tidakLulus++;
     }
+    sc.close();
 }
 
 System.out.println("Nilai tertinggi: " + tertinggi);
